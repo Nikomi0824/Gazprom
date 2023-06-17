@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav>
-      
+      <LayoitBlock class="LayoitBlock"/>
     </nav>
     <FooterBlock/>
   </div>
@@ -9,11 +9,13 @@
 
 
 <script>
+import LayoitBlock from './views/Layot/Layot.vue'
 import FooterBlock from './components/Footer/FooterBlock.vue';
 export default{
   
   components:{
     FooterBlock,
+    LayoitBlock,
   }
 }
 </script>
@@ -23,8 +25,13 @@ export default{
 
 
 #app {
-  font-family: HeliosCond;
+  
 }
-
+.LayoitBlock{
+  
+  max-width: 100%;
+  padding: 0 40px;
+  margin: 0 auto;
+}
 
 </style>

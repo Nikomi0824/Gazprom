@@ -7,3 +7,11 @@
     src: local("HeliosCond"), url("/fonts/ofont.ru_Helios") format("ttf");
 }
 
+@font-face {
+    font-family: "heliosCond";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("heliosCond"), url("/fonts/helioscondc_bold.otf") format("otf");
+}

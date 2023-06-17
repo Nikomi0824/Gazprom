@@ -1,0 +1,21 @@
+@import url(./scss/Mixcins.scss);
+@import url(./scss/Сonstants.scss);
+
+button{
+    cursor: pointer;
+    background-color: #0079C2;
+    color: #ffff;
+    width: 286px;
+    height: 60px;
+}
+h1{
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 242px;
+}
+h2{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    
+}

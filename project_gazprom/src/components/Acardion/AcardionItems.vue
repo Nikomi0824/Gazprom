@@ -6,11 +6,9 @@
 
 
 <script>
-export default{
-    name:'FooterBlock'
+export default {
+    name: 'AcardionItems'
 }
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
