@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "HeliosCond";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("HeliosCond"), url("/fonts/ofont.ru_Helios") format("ttf");
+}
+
