@@ -39,7 +39,7 @@ section{
     }
     .Baner2{
         position: absolute;
-        top: 598px;
+        top: 550px;
         left: 0;
         height: 400px;
         width: 400px;
@@ -56,7 +56,9 @@ section{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0 424px 0 463px;
+        width: 913px;
+        max-width: 100%;
+        margin: 0 auto;
         h1{
             background-color: #F5F5F5;
             color: #1D4573;

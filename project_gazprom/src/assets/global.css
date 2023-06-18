@@ -2,7 +2,11 @@
 @import url(./scss/Сonstants.scss);
 
 
-
+*{
+    font-family:"Rubik";
+    margin: 0;
+    padding: 0;
+}
 button{
     cursor: pointer;
     background-color: #0079C2;

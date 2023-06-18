@@ -13,7 +13,7 @@
     font-style: normal;
     font-display: auto;
     unicode-range: U+000-5FF;
-    src: local("heliosCond"), url("/fonts/ofont.ru_Helios Cond (2).ttf") format("'truetype'");
+    src: local("heliosCond"), url("/fonts/ofont.ru_HeliosCond3.ttf") format("'truetype'");
 }
 
 @font-face {

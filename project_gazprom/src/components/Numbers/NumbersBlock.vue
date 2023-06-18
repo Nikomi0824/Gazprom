@@ -32,6 +32,9 @@ export default{
 <style lang="scss" scoped>
 section{
     text-align: center;
+    h2{
+            margin-bottom: 56px;
+        }
     .shell{
         display: flex;
         flex-direction: column;
@@ -39,6 +42,7 @@ section{
         max-width: 100%;
         width: 1564px;
         margin: 0 auto;
+        
         .shellOne,
         .shellTwo{
             display: flex;

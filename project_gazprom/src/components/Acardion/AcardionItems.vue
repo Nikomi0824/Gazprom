@@ -56,7 +56,8 @@ section{
                 border-radius: 50%;
                 width: 62px;
                 height: 62px;
-                margin-right:42px;
+                margin:28px 42px 28px;
+                
                 .img1{
                     position: absolute;
                     transform: rotate(90deg);

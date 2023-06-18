@@ -40,10 +40,10 @@ export default{
     margin-bottom: 160px;
 }
 .StagesBlock{
-    margin-bottom: 123px;
+    margin-bottom: 160px;
 }
 .NumbersBlock{
-    margin-bottom: 206px;
+    margin-bottom: 160px;
 }
 .QuestionAndAnswer{
     margin-bottom: 64px;
