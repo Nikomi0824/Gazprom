@@ -21,11 +21,11 @@ export default{
 </script>
 
 <style lang="scss">
-@import "./assets/global.css";
-
+@import url("./assets/global.scss");
+@import url("./assets/Main.scss");
 
 #app {
-   font-family: "HeliosCondBlack";
+   
 }  
 .LayoitBlock{
   max-width: 100%;

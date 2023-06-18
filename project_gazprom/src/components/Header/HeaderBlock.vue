@@ -16,6 +16,7 @@ export default{
 
 
 <style lang="scss" scoped>
+
 section{
 
     margin-top: 48px;

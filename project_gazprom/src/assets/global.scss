@@ -1,9 +1,11 @@
-@import url(./scss/Mixcins.scss);
-@import url(./scss/Сonstants.scss);
+@import url('./scss/Mixcins.scss');
+@import url('./scss/Сonstants.scss');
 
-
+body{
+    font-family: HeliosCond;
+}
 *{
-    font-family:"Rubik";
+    
     margin: 0;
     padding: 0;
 }
