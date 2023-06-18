@@ -63,9 +63,10 @@ section{
             padding:0 19px;
             margin-bottom: 0;
             margin-top: 0;
+            
         }  
         p{
-            width: 880px;
+            width: 951px;
             font-weight: 400;
             font-size: 30px;
             line-height: 35px;
