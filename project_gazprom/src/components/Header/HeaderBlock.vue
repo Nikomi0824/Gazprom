@@ -17,8 +17,9 @@ export default{
 
 <style lang="scss" scoped>
 section{
+
+    margin-top: 48px;
     width: 100%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items:flex-end ;
@@ -30,17 +31,18 @@ section{
     }
    
     p{
-
+        font-family: "HeliosCondBlack";
         padding-bottom: 10px;
         margin: 0 20px;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 37px;
         line-height: 37px;
+        color: #1D4573;
         
         span{
             background-color: #0079C2;
             color: white;
-            margin: 20px 0;
+            padding: 12px 0;
             
         }
     }

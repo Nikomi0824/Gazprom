@@ -32,14 +32,14 @@ section{
     color: #F5F5F5;
     .Baner1{
         position: absolute;
-        top: 200px;
+        top: 248px;
         right: 40px;
         height: 300px;
         width: 300px;
     }
     .Baner2{
         position: absolute;
-        top: 550px;
+        top: 598px;
         left: 0;
         height: 400px;
         width: 400px;

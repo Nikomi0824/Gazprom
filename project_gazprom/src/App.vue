@@ -3,7 +3,7 @@
     <nav>
       <LayoitBlock class="LayoitBlock"/>
     </nav>
-    <FooterBlock/>
+    <FooterBlock class="FooterBlock"/>
   </div>
 </template>
 
@@ -25,13 +25,18 @@ export default{
 
 
 #app {
-  
-}
+   font-family: "HeliosCondBlack";
+}  
 .LayoitBlock{
-  
   max-width: 100%;
   padding: 0 40px;
   margin: 0 auto;
+  
+}
+.FooterBlock{
+ 
+  border-top: 1px solid #0079C2;
+  width: 100%;
 }
 
 </style>

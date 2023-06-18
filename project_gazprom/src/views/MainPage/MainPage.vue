@@ -1,9 +1,11 @@
 <template>
     <section>
-        <BanerBlock></BanerBlock>
+        <BanerBlock class="BanerBlock"></BanerBlock>
         <OpprtunitiesBlock class="OpprtunitiesBlock"></OpprtunitiesBlock>
-        <WhoCanTakePart></WhoCanTakePart>
-        <StagesBlock></StagesBlock>
+        <WhoCanTakePart class="WhoCanTakePart"></WhoCanTakePart>
+        <StagesBlock class="StagesBlock"></StagesBlock>
+        <NumbersBlock class="NumbersBlock"></NumbersBlock>
+        <QuestionAndAnswer class="QuestionAndAnswer"></QuestionAndAnswer>
     </section>
 </template>
 
@@ -13,6 +15,8 @@ import BanerBlock from '@/components/Banner/BanerBlock.vue';
 import OpprtunitiesBlock from '@/components/Opportunities/OpprtunitiesBlock.vue';
 import WhoCanTakePart from '@/components/WhoCanTakePart/WhoCanTakePart.vue';
 import StagesBlock from '@/components/Stages/StagesBlock.vue';
+import NumbersBlock from '@/components/Numbers/NumbersBlock.vue';
+import QuestionAndAnswer from '@/components/QuestionAndAnswer/QuestionAndAnswer.vue';
 export default{
     name:'MainPage',
     components:{
@@ -20,6 +24,8 @@ export default{
         OpprtunitiesBlock,
         WhoCanTakePart,
         StagesBlock,
+        NumbersBlock,
+        QuestionAndAnswer,
     }
    
 }
@@ -28,6 +34,18 @@ export default{
 <style lang="scss" scoped>
 
 .OpprtunitiesBlock{
-    margin: 160px 40px 160px 40px;
+    margin: 160px 42px 160px 40px;
+}
+.WhoCanTakePart{
+    margin-bottom: 160px;
+}
+.StagesBlock{
+    margin-bottom: 123px;
+}
+.NumbersBlock{
+    margin-bottom: 206px;
+}
+.QuestionAndAnswer{
+    margin-bottom: 64px;
 }
 </style>

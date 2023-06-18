@@ -4,12 +4,11 @@
             <div class="head">
                 <h3 >{{ item.title }}</h3>
                 <button @click="Accordion()">
-                    <img  class="img1" src="/image/Line 5.png" alt="">
-                    <img :style="Activ===true ? transform: `rotate(${90}}deg)` " class="img2" src="/image/Line 5.png" alt="">
-
+                    <img v-bind:style="{ transform: isActive ? 'rotate(135deg)' : 'rotate(90deg)' }"  class="img1"  src="/image/Line 5.png" alt="">
+                    <img v-bind:style="{ transform: isActive ? 'rotate(45deg)' : 'rotate(0deg)' }"  class="img2" src="/image/Line 5.png" alt="">
                 </button>
             </div>
-            <p v-show="Activ === true">{{ item.text }}</p>
+            <p v-show="isActive === true">{{ item.text }}</p>
         </div>
     </section>
 </template>
@@ -23,12 +22,12 @@ export default {
     },
     data(){
         return{
-            Activ: false,
+            isActive: false,
         }
     },
     methods:{
          Accordion() {
-            this.Activ=!this.Activ
+            this.isActive =!this.isActive
         }
     }
 }
@@ -37,8 +36,7 @@ export default {
 <style lang="scss" scoped>
 section{
     .Shell{
-        max-width: 100%;
-        width: 1362px;
+        width: 100%;
         margin: 0 auto;
         background-color: #F5F5F5;
         margin-bottom:8px ;
@@ -64,6 +62,7 @@ section{
                     transform: rotate(90deg);
 
                 }
+                
                 
             }
             

@@ -19,11 +19,11 @@ export default {
         return {
             items: [
                 {
-                    title: "Регистрация(до 20 октября)",
+                    title: "Регистрация (до 20 октября)",
                     text:''
                 },
                 {
-                    title: "Анкета (до 31 октября)",
+                    title: "Анкета и видеоинтервью (до 31 октября)",
                     text: ''
                 },
                 {
@@ -54,6 +54,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+        margin-bottom: 56px;
+    }
+    div{
+        width: 1362px;
+        max-width: 100%;
+        
+    }
+}
 
 </style>
